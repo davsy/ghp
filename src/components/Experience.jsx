@@ -34,6 +34,11 @@ export default function Experience() {
                     <p>
                         Learned to leverage big data to extract insights and improve decision making. Hands on experience with data collection, management, visualization, and modeling. Courses include:
                     </p>
+                    <ul>
+                        <li>Exploratory Data Analysis and Visualization</li>
+                        <li>Hadoop and Managing Big Data</li>
+                        <li>Machine Learning Using R</li>
+                    </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -59,11 +64,6 @@ export default function Experience() {
                         <p>
                             Worked on employing API services to supplement the supply chain management toolset at GT-Nexus including tracking, geofencing, and notifications.
                         </p>
-                        <ul>
-                            <li>Exploratory Data Analysis and Visualization</li>
-                            <li>Hadoop and Managing Big Data</li>
-                            <li>Machine Learning Using R</li>
-                        </ul>
                     </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

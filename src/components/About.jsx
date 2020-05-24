@@ -4,7 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
-import roadImg from '../static/img/road.JPG';
 import avatarImg from '../static/img/avatar.jpg'
 
 const useStyles = makeStyles((theme) => ({
@@ -18,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     bottom: 23,
     left: 17,
+    background: "#000",
+    opacity: 0.8,
+    borderRadius: "25px",
+    padding: 12,
   },
   avatarSize: {
     top: "20vh",
@@ -38,7 +41,8 @@ export default function About() {
     <Card className={classes.root} id="AboutSection">
         <CardMedia
           className={classes.media}
-          image={roadImg}
+          image="https://images.unsplash.com/photo-1497564885540-b12eee8b5ecd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+          // image={roadImg}
           title="Road"
         >
             <Avatar alt="Davie Sy" 
@@ -55,11 +59,12 @@ export default function About() {
             <Typography
                 variant="body1"
                 className={classes.typo}
-            > I am a software engineer, currently working at Boingo. </Typography>
+            > I am a software engineer, currently working at 
+              <a href="https://www.boingo.com/" target="_blank" rel="noopener noreferrer"> Boingo</a>. </Typography>
             <Typography
                 variant="body1"
                 className={classes.typo}
-            > I have an interest for working with data and building supporting infastructure </Typography>
+            > I have an interest in working with big data and building supporting infastructure </Typography>
             </div>
         </CardMedia>
     </Card>
